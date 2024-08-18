@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>C Shell</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="projects.html" class="logo">Back to Projects</a>
+					</header>
+
+				<!-- Main -->
+                    <div id="main">
+                        <!-- Post -->
+                            <section class="post">
+                                <header class="major">
+                                    <h1>Simple C Shell</h1>
+                                    <p>A basic shell implementation in C capable of changing directories and executing system programs, utilizing key system calls and environment variables.</p>
+                                </header>
+                                <div class="image main"><img src="images/cshell.png" alt="" /></div>
+                                <h3>Tools and Technologies Used:</h3>
+                                <ul>
+                                    <li><b>Programming Language:</b> C</li>
+                                    <li><b>Development Environment:</b> Console-based (vim)</li>
+                                    <li><b>System Calls:</b> fork, exec, wait</li>
+                                    <li><b>Standard Library Functions:</b> getenv</li>
+                                    <li><b>Build System:</b> Makefile</li>
+                                </ul>
+                                <h3>Key Features:</h3>
+                                <ul>
+                                    <li><b>Command Execution:</b> Ability to execute system programs like pwd and ls</li>
+                                    <li><b>Directory Navigation:</b> Implementation of the cd command for changing directories</li>
+                                    <li><b>Environment Variable Handling:</b> Utilization of the PATH environment variable for locating executable files</li>
+                                    <li><b>Process Management:</b> Use of fork, exec, and wait system calls for process creation and control</li>
+                                    <li><b>Command Parsing:</b> Parsing user input to separate commands and arguments</li>
+                                    <li><b>Memory Management:</b> Dynamic allocation and deallocation of memory for command structures</li>
+                                </ul>
+                                <h3>Technical Highlights:</h3>
+                                <ul>
+                                    <li><b>Custom Command Structure:</b> Implementation of a command_t struct to store parsed command information</li>
+                                    <li><b>Path Resolution:</b> Development of a find_fullpath function to locate executable files in PATH directories</li>
+                                    <li><b>Built-in Command Handling:</b> Special handling for built-in commands like cd and exit</li>
+                                    <li><b>Error Handling:</b> Proper error messages for command not found scenarios</li>
+                                    <li><b>Code Modularity:</b> Separation of functionalities into distinct functions (parse, execute, etc.)</li>
+                                </ul>
+                                <h3>Achievements:</h3>
+                                <ul>
+                                    <li><b>Functional Shell Implementation:</b> Successfully created a basic working shell capable of executing commands and navigating directories</li>
+                                    <li><b>System Call Mastery:</b> Demonstrated proficiency in using low-level system calls for process management</li>
+                                    <li><b>Environment Variable Integration:</b> Effectively utilized environment variables to enhance shell functionality</li>
+                                    <li><b>Memory Safety:</b> Implemented proper memory allocation and deallocation to prevent leaks</li>
+                                </ul>
+                                <h3>Lessons Learned:</h3>
+                                <ul>
+                                    <li><b>Low-Level Programming:</b> Gained deeper understanding of operating system interactions through C programming</li>
+                                    <li><b>Process Control:</b> Enhanced knowledge of how processes are created, executed, and managed in Unix-like systems</li>
+                                    <li><b>Command Line Interface Design:</b> Learned about the structure and functionality of command-line shells</li>
+                                    <li><b>Environment Variable Usage:</b> Understood the role and application of environment variables in system programming</li>
+                                    <li><b>Code Organization:</b> Improved skills in structuring a complex program with multiple interrelated functions</li>
+                                </ul>
+                                <hr>
+								<article>
+									<ul class="actions special">
+										<a href="projects.html" class="button">Back to Projects</a>
+									</ul>
+								</article>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<section>
+								<h3>Links</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/danielxunc/" class="icon brands alt fa-linkedin"><span class="label">Instagram</span></a></li>
+									<li><a href="https://github.com/daniel2036" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
